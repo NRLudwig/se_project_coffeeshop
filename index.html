@@ -19,12 +19,54 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <!--created two elements to seperated with flexbox-->
+          <img
+            class="nav__logo"
+            alt="cafe logo"
+            src="./images/logo_coffeeshop_dark.svg"
+          />
+          <ul class="nav__links">
+            <li class="nav__link"><a href="#recipes">Recipes</a></li>
+            <li class="nav__link"><a href="#reservation">Book a table</a></li>
+            <li class="nav__link"><a href="#menu">Menu</a></li>
+            <li class="nav__link"><a href="#about">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span><br />in the
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative
+        </p>
+        <img
+          class="header__image"
+          alt="illustration of cafe"
+          src="./images/inside_coffee_shop.png"
+        />
+        <div class="header__footer">
+          <ul class="header__footer-schedule">
+            <li class="header__schedule-hours">Hours:</li>
+            <li class="header__schedule-weekday">
+              Monday - Friday (10:00-19:00)
+            </li>
+            <li class="header__schedule-weekend">
+              Saturday - Sunday (11:00-18:00)
+            </li>
+          </ul>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section id="recipes" class="recipes"></section>
+        <section id="reservation" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="about" class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
