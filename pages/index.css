@@ -178,25 +178,25 @@ a {
   border: 0;
 }
 
-.video__caption-wrapper {
+.recipes__caption-wrapper {
   display: flex;
   justify-content: center;
   column-gap: 40px;
   margin-top: 0;
 }
 
-.video__caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   width: 480px;
 }
 
-.video__caption-title {
+.recipes__caption-title {
   margin-top: 24px;
   margin-bottom: 0;
 }
 
-.video__caption-time {
+.recipes__caption-time {
   margin-top: 24px;
   margin-bottom: 0;
 }
