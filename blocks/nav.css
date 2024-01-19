@@ -22,3 +22,11 @@
   list-style-type: none;
   padding-left: 0;
 }
+
+.nav__link {
+  transition: color 0.15s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}

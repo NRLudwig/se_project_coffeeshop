@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header id="header" class="header">
         <nav class="nav">
           <!-- created two elements to seperated with flexbox -->
           <img
@@ -284,7 +284,33 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" />
+          <div class="footer_social-wrapper">
+            <h2 class="footer__social-heading">Social media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item footer__list-item_facebook_spacing">
+                <a class="footer__social-link" href="#header"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item footer__list-item_instagram_spacing">
+                <a class="footer__social-link" href="#header"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Nater</p>
+      </footer>
     </div>
   </body>
 </html>
