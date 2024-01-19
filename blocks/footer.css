@@ -31,16 +31,18 @@
 .footer__list {
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__list-item:last-child {
+  margin-top: 16px;
 }
 
 .footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
-}
-
-.footer__list-item_facebook_spacing {
-  margin-bottom: 16px;
 }
 
 .footer__social-link {

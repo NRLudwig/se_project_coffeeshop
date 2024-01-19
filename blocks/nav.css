@@ -13,18 +13,25 @@
 }
 
 .nav__links {
-  position: relative;
-  right: 80px;
+  margin-right: 80px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
   list-style-type: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
   transition: color 0.15s ease-in-out;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000;
 }
 
 .nav__link:hover {

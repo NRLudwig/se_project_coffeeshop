@@ -19,20 +19,19 @@
   position: relative;
   display: flex;
   overflow: hidden;
+  padding-left: 80px;
+  z-index: 1;
 }
 
 .about__title {
   max-width: 251px;
   color: #fff;
-  font-family: "Inter", Arial, "sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  position: relative;
-  left: 80px;
   margin: 0;
-  z-index: 1;
 }
 
 .about__content {
@@ -51,7 +50,7 @@
   margin: 0;
 }
 
-.about__paragraph_two_spacing {
+.about__paragraph:nth-last-child(2) {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -64,7 +63,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
